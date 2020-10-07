@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #bdbdbd;
+  height: 100vh
+}
+
+.header {
+  margin-top: 5%;
+  font-size: 3em;
+}
+
+.hidden {
+  display: none;
+}
+
+.home-button {
+
+
+}
+
+#form input{
+  margin: 10px;
+  padding: 10px 30px;
+}
+
+#input{
+  width: 100%;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+form{
+  margin: 30px;
+  display: flex
+}
+
+#button{
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+#returnToImageBtn
+{
+  margin: 20px;
+  background-color: red;
+  color: white;
+}
+
+#returnToHome
+{
+  margin: 20px;
+  background-color: red;
+  color: white
+}
+
+#mainButton
+{
+  margin-top: 65%;
+  padding: 30px 40px;
+}
+
