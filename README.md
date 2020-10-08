@@ -18,6 +18,29 @@ https://am22.akamaized.net/tms/cnt/uploads/2016/03/ancient-aliens-guy-1170x1024.
 * I would love to move the text from the bottom to another position say the top or middle, I would love a drop down selector to give me a choice. 
 * I want to change the colour of the text on the meme I make, I love the colour bisque!
 
+## Setup
+
+To get started, clone this repo and then:
+
+```
+cd MKMKG_limited_org
+npm install
+npx knex migrate:latest
+npx knex seed:run
+npm run dev
+```
+
+You can find the server running on [http://localhost:3000](http://localhost:3000).
+
+
+## Team
+
+- Kahu 
+- Matt
+- Gideon
+- Michael
+- Karishma
+
 ## 1: Create repo with a React App inside.
 
 - [x] Repo created MKMKG LIMITED ORG
