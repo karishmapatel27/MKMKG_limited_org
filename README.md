@@ -41,6 +41,8 @@ You can find the server running on [http://localhost:3000](http://localhost:3000
 - Michael
 - Karishma
 
+### Steps to complete as a team
+
 ## 1: Create repo with a React App inside.
 
 - [x] Repo created MKMKG LIMITED ORG
