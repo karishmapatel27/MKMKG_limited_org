@@ -1,21 +1,16 @@
 import React from 'react'
 
-import {Grid, Image, Header} from 'semantic-ui-react'
+import { Grid, Image, Header } from 'semantic-ui-react'
 
 import ReturnToHome from './ReturnToHome'
 
-// import Don from "/images/don.png"
-// import Karel from "/images/karel.png"
-// import Emily from "/images/emily.png"
-// import Prue from "/images/prue.png"
-
 function ImageList() {
-  
+
   return (
     <>
 
       <div className='header'>
-        <Header size='huge'>Meme Machine</Header>
+        <Header size='huge'>Meme Generator</Header>
       </div>
 
       <h1>Choose your victim:</h1>
@@ -58,4 +53,4 @@ function ImageList() {
 
 export default ImageList
 
-//List or gallery view of 4 images
+

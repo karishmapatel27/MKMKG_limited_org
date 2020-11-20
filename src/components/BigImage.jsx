@@ -2,14 +2,14 @@ import React from 'react'
 
 import { Image } from 'semantic-ui-react'
 
-function BigImage (props) {
+function BigImage(props) {
 
   const MemeImage = props.match.params.image
-console.log(props.match.params)
+  console.log(props.match.params)
 
   return (
     <>
-      <Image src={`/images/${MemeImage}.png`}/>
+      <Image src={`/images/${MemeImage}.png`} />
     </>
   )
 }

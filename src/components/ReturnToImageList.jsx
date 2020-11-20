@@ -3,15 +3,15 @@ import React from 'react'
 import { Button, Icon } from 'semantic-ui-react'
 
 function ReturnToImageList() {
-  return(
+  return (
     <>
-      
-      <Button animated href='/#/imageList' size='large' id="returnToImageBtn" >
-      <Button.Content visible>Return To Images</Button.Content>
-      <Button.Content hidden>
-        <Icon name='arrow left' />
-      </Button.Content>
-    </Button>
+
+      <Button href='/#/imageList' color='olive' size='large' id="returnToImageBtn" >
+        <Button.Content visible>Return To Images</Button.Content>
+        <Button.Content hidden>
+          <Icon name='arrow left' />
+        </Button.Content>
+      </Button>
     </>
   )
 }

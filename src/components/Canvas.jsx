@@ -1,12 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
-// import backImg from "/images/karel.png"
-
-// props.match.image
-// props.match.name
 
 class Canvas extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props)
   }
 
@@ -22,7 +18,6 @@ class Canvas extends React.Component {
       ctx.lineWidth = 8;
       ctx.strokeText(this.props.match.params.text.toUpperCase(), 320, 75)
       ctx.fillStyle = 'white'
-      // ctx.fillText(this.props.text, 210, 75) // THIS IS THE PLACE TEXT IS EMBEDDED INTO THE PICTURE
       ctx.fillText(this.props.match.params.text.toUpperCase(), 320, 75)
     }
   }
@@ -31,11 +26,9 @@ class Canvas extends React.Component {
     return (
       <div>
         <canvas ref="canvas" width={1280} height={720} />
-        <img ref="image" src={`/images/${this.props.match.params.image}.png`} className="hidden" />
+        <img ref="image" alt="meme victim" src={`/images/${this.props.match.params.image}.png`} className="hidden" />
       </div>
     )
   }
 }
 export default Canvas
-
-// font-family: 'Anton', sans-serif;

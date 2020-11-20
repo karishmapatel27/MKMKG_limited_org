@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Button } from 'semantic-ui-react'
 import { Header } from 'semantic-ui-react'
 
@@ -7,12 +6,15 @@ function Home() {
   return (
     <>
       <div className='header'>
-        <Header size='huge'>Meme Machine</Header>
+        <Header size='huge'>Meme Generator</Header>
       </div>
       <h2>REACT to our memes</h2>
-      <div class= 'home-button'>
-        <Button animated='fade' size='massive' href='/#/imageList' color='red' id="mainButton">
-          <Button.Content visible >Click Me to make a MEME</Button.Content>
+      <div className="landing_image">
+        <img src='./meme.jpg' alt="meme"></img>
+      </div>
+      <div class='home-button'>
+        <Button color='olive' size='large' href='/#/imageList' id="mainButton">
+          <Button.Content visible >Start</Button.Content>
           <Button.Content hidden>MEME Time!!!</Button.Content>
         </Button>
       </div>
@@ -22,5 +24,4 @@ function Home() {
 
 export default Home
 
-//Title
-//Link to start making a meme
+

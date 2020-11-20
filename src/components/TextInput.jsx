@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 
 class TextInput extends Component {
   constructor(props) {
-  super(props)
+    super(props)
     this.state = {
-    text: ''
+      text: ''
+    }
   }
-}
 
   handleURL = () => {
     this.props.history.push(`/yourMeme/${this.props.match.params.image}/${this.state.text}`)
