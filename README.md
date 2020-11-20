@@ -25,9 +25,7 @@ To get started, clone this repo and then:
 ```
 cd MKMKG_limited_org
 npm install
-npx knex migrate:latest
-npx knex seed:run
-npm run dev
+npm start
 ```
 
 You can find the server running on [http://localhost:3000](http://localhost:3000).
