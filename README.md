@@ -14,9 +14,9 @@ https://am22.akamaized.net/tms/cnt/uploads/2016/03/ancient-aliens-guy-1170x1024.
 
 ### STRETCH User request
 
-* I want to be able to share my new meme with friends, it is currently lockdown so I cannot go to their house and make it in front of them. Can I please have a way of sharing the url so that when my friend opens it on discord it produces the same meme.
-* I would love to move the text from the bottom to another position say the top or middle, I would love a drop down selector to give me a choice. 
-* I want to change the colour of the text on the meme I make, I love the colour bisque!
+- [x] I want to be able to share my new meme with friends, it is currently lockdown so I cannot go to their house and make it in front of them. Can I please have a way of sharing the url so that when my friend opens it on discord it produces the same meme.
+- [ ] I would love to move the text from the bottom to another position say the top or middle, I would love a drop down selector to give me a choice. 
+- [ ] I want to change the colour of the text on the meme I make, I love the colour bisque!
 
 ## Setup
 
