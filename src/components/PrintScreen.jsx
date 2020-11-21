@@ -5,7 +5,7 @@ function PrintScreen() {
   return (
     <>
       <div>
-        <Button onClick={() => window.print()}>
+        <Button id="printScreen" onClick={() => window.print()}>
           Click Me to save your meme
         </Button>
       </div>

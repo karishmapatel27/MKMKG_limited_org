@@ -13,8 +13,10 @@ function YourMeme(props) {
         <Header size='small'>Enjoy Your Meme!</Header>
       </div>
       <Canvas {...props} />
-      <ReturnToHome />
-      <PrintScreen />
+      <div class="print_return_btn">
+        <ReturnToHome />
+        <PrintScreen />
+      </div>
     </>
   )
 }

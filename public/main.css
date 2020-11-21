@@ -4,7 +4,21 @@
   align-items: center;
   color: black;
   background-color: #ffffff;
-  /* height: 100vh */
+}
+
+.big_img{
+  width: 65%;
+  height: auto;
+}
+
+.canvas{
+  width: 80%;
+  height: auto;
+}
+
+.canvas_img{
+  display: flex;
+  justify-content: center;
 }
 
 .header {
@@ -15,6 +29,11 @@
 
 .hidden {
   display: none;
+}
+
+.final_img{
+  width: 65%;
+  height: auto;
 }
 
 .landing_image
@@ -49,6 +68,20 @@ form{
   font-size: 25px;
   border: none;
   border-radius: 5px;
+}
+
+.print_return_btn
+{
+  display: flex;
+  margin: 2% 0 2% 0;
+}
+
+#printScreen{
+  margin: 20px;
+  padding: 20px 30px;
+  font-size: 1.8rem;
+  color:white;
+  background-color: rgb(117, 117, 117);
 }
 
 #returnToImageBtn

@@ -1,14 +1,10 @@
 import React from "react"
 import { Route } from "react-router-dom"
 
-import { Header } from 'semantic-ui-react'
-
 import Home from "./Home"
 import ImageList from "./ImageList"
 import MemeBuilder from "./MemeBuilder"
 import YourMeme from "./YourMeme"
-import Canvas from "./Canvas"
-import PrintScreen from "./PrintScreen"
 
 function App() {
   return (

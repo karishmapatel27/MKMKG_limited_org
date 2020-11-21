@@ -9,7 +9,7 @@ function BigImage(props) {
 
   return (
     <>
-      <Image src={`/images/${MemeImage}.png`} />
+      <Image className="big_img" src={`/images/${MemeImage}.png`} width="600" height="400" />
     </>
   )
 }

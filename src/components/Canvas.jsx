@@ -22,11 +22,10 @@ class Canvas extends React.Component {
     }
   }
   render() {
-    console.log(`/images/${this.props.match.params.image}.png`)
     return (
-      <div>
-        <canvas ref="canvas" width={1280} height={720} />
-        <img ref="image" alt="meme victim" src={`/images/${this.props.match.params.image}.png`} className="hidden" />
+      <div className="canvas_img">
+        <canvas ref="canvas" width="1200" height="620" className="canvas" />
+        <img ref="image" alt="meme victim" src={`/images/${this.props.match.params.image}.png`} className="hidden final_img" width="600" height="400" />
       </div>
     )
   }
