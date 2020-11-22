@@ -22,9 +22,9 @@
 }
 
 .header {
-  margin-top: 4%;
+  margin-top: 3%;
   font-size: 3rem;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 .hidden {
@@ -90,7 +90,7 @@ form{
   color: white;
 }
 
-#returnToHome
+#returnToHomeBtn
 {
   margin: 20px;
   padding: 20px 30px;
@@ -104,11 +104,27 @@ form{
   font-size: 1.8rem;
 }
 
+#enjoy{
+  margin-bottom: 13%;
+  color: 	rgb(171, 198, 71);
+  font-size: 3rem;
+}
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
 .header {
   margin-top: 15%;
   font-size: 1.3rem;
   margin-bottom: 2%;
+}
+
+.grid_img{
+  display: flex;
+  justify-content: center;
+  margin: 0 3% 0 3%;
+}
+
+.home_subheading{
+  font-size: 1.4rem;
 }
 
 .landing_image
@@ -129,4 +145,194 @@ form{
   padding: 15px 30px;
   font-size: 1.5rem;
 }
+
+#returnToHomeBtn
+{
+  margin: 15px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+}
+
+#input{
+  width: 100%;
+  font-size: 12px;
+  height: 35px;
+}
+
+#button{
+  font-size: 12px;
+}
+
+.big_img{
+  width: 85%;
+  height: auto;
+  margin: 5% 0 5% 0;
+}
+
+form{
+  margin: 10% 10%;
+}
+
+.print_return_btn
+{
+  margin: 7% 0 2% 0;
+}
+
+#printScreen{
+  margin: 15px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+}
+
+#enjoy{
+  margin-bottom: 13%;
+  font-size: 1.7rem;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+.header {
+  margin-top: 10%;
+  font-size: 2.3rem;
+  margin-bottom: 2%;
+}
+
+.grid_img{
+  margin: 3% 2% 2% 2%;
+}
+
+.home_subheading{
+  font-size: 2.3rem;
+}
+
+.landing_image
+{
+  margin: 10% 0 15% 0; 
+}
+
+.landing_image img
+{
+  width: 100%;
+  height: auto;
+}
+
+#mainButton
+{
+  padding: 20px 35px;
+  font-size: 2rem;
+}
+
+#button{
+  font-size: 25px;
+}
+
+.big_img{
+  width: 85%;
+  height: auto;
+  margin: 2% 0 5% 0;
+}
+
+form{
+  margin: 10% 4%;
+}
+
+#returnToImageBtn
+{
+  margin: 20px;
+  font-size: 1.7rem;
+}
+
+.print_return_btn
+{
+  margin: 7% 0 2% 0;
+}
+
+#enjoy{
+  margin-bottom: 13%;
+  font-size: 2.7rem;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.header {
+  margin-top: 7%;
+  font-size: 2.8rem;
+  margin-bottom: 2%;
+}
+
+.grid_img{
+  margin: 10% 3% 5% 3%;
+}
+
+.home_subheading{
+  font-size: 2.8rem;
+}
+
+.landing_image
+{
+  margin: 10% 0 15% 0; 
+}
+
+.landing_image img
+{
+  width: 100%;
+  height: auto;
+}
+
+#mainButton
+{
+  padding: 20px 45px;
+  font-size: 2.5rem;
+} 
+
+#returnToHomeBtn
+{
+  margin: 20px;
+  padding: 20px 30px;
+  font-size: 2.3rem;
+}
+
+form{
+  margin: 10% 4%;
+}
+
+#returnToImageBtn
+{
+  margin: 8%;
+  font-size: 2rem;
+}
+
+.big_img{
+  width: 75%;
+  height: auto;
+  margin: 2% 0 2% 0;
+}
+
+#button{
+  font-size: 30px;
+}
+
+#input{
+  width: 100%;
+  font-size: 30px;
+  height: 60px;
+}
+
+.print_return_btn
+{
+  display: flex;
+  margin: 7% 0 2% 0;
+}
+
+#enjoy{
+  font-size: 3.3rem;
+}
+
+#printScreen{
+  margin: 20px;
+  padding: 20px 30px;
+  font-size: 2.3rem;
+}
+
 }

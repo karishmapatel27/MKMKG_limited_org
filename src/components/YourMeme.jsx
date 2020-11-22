@@ -1,5 +1,4 @@
 import React from 'react'
-import { Route, } from 'react-router-dom'
 import { Header } from 'semantic-ui-react'
 
 import Canvas from './Canvas'
@@ -10,10 +9,10 @@ function YourMeme(props) {
   return (
     <>
       <div className='header'>
-        <Header size='small'>Enjoy Your Meme!</Header>
+        <Header size='small' id="enjoy">Enjoy Your Meme!</Header>
       </div>
       <Canvas {...props} />
-      <div class="print_return_btn">
+      <div className="print_return_btn">
         <ReturnToHome />
         <PrintScreen />
       </div>

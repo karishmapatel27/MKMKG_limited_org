@@ -8,7 +8,7 @@ function Home() {
       <div className='header'>
         <Header size='huge'>Meme Generator</Header>
       </div>
-      <h2>REACT to our memes</h2>
+      <h2 className="home_subheading">REACT to our memes</h2>
       <div className="landing_image">
         <img src='./meme.jpg' alt="meme"></img>
       </div>

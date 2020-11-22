@@ -13,12 +13,12 @@ function ImageList() {
         <Header size='huge'>Meme Generator</Header>
       </div>
 
-      <h1>Choose your victim:</h1>
+      <h1 className="home_subheading">Choose your victim:</h1>
 
-      <Grid padded>
+      <div class="grid_img">
 
-        <Grid.Row columns={5}>
-          <Grid.Column></Grid.Column>
+
+        <Grid columns={3} doubling stackable padded>
           <Grid.Column>
             <Image src='/images/don.png' href='#/memeBuilder/don' />
           </Grid.Column>
@@ -28,11 +28,6 @@ function ImageList() {
           <Grid.Column>
             <Image src='/images/daryl.png' href='#/memeBuilder/daryl' />
           </Grid.Column>
-          <Grid.Column></Grid.Column>
-        </Grid.Row>
-
-        <Grid.Row columns={5}>
-          <Grid.Column></Grid.Column>
           <Grid.Column>
             <Image src='/images/emily.png' href='#/memeBuilder/emily' />
           </Grid.Column>
@@ -42,11 +37,11 @@ function ImageList() {
           <Grid.Column>
             <Image src='/images/nimesh.png' href='#/memeBuilder/nimesh' />
           </Grid.Column>
-          <Grid.Column></Grid.Column>
-        </Grid.Row>
-      </Grid>
+        </Grid>
 
+      </div>
       <ReturnToHome />
+
     </>
   )
 }
