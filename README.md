@@ -1,6 +1,8 @@
 
 # MKMKG Ltd Org 
 
+![product screenshot](public/meme-generator.PNG)
+
 ### MVP User request
 
 * As a user I want to be able to make fresh memes with a collection of images alrady stored on a file. I want to make these memes on a website that I could show to anyone anywhere so my friends could see these amazing works of art. These memes will need to have text dislayed clearly over the image, along the bottom portion. 
