@@ -1,5 +1,6 @@
 
-# MKMKG Ltd Org 
+# Meme Maker 
+This project was a single day team project in which we built a meme making website. It uses images of our teachers at EDA and is meant in the kindest of ways to have fun and test our react knowledge.
 
 ![product screenshot](public/meme-generator.PNG)
 
@@ -106,3 +107,6 @@ Attempt stretch goals based on the Product owners recommendation, If we have tim
 
 ## 9: Present and get our amazing bootcamp friends to join in!!
 Lets present this amazing work and have friends try and make spicy memes together.
+
+# Netlify Link (View the site here)
+https://react-meme-builder.netlify.app/#/
